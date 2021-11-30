@@ -22,16 +22,20 @@
     <nav>
         <ul>
         <li><a href="">Home</a></li>
+        <!-- Remove this line from code - it creates an unncessary list -->
             <li><a href="games/empty">Empty Template</a></li>
         </ul>
         <?php include $base."leftMenuGame.php"; ?>
     </nav>
     <article>
-        <h1 id="gameName"></h1>
-        <h3 id="groupName"></h3>
+        <h1 id="gameName">Empty Game</h1>
+        <h3 id="groupName">Team Everybody</h3>
         <h3>Instruction:</h3>
         <div id="gameDesc" class="jumbotron">
+        <strong>Overview:</strong> <br/>
+        <p> This is a sample game aimed at learning how to develop a game on the Dr Ecco website</p>
         </div>
+        <h3>Leaderboard:</h3>
 	<div id="scoreArea", class="jumbotron">
 	<?php 
 	    include $base."getScore.php";
