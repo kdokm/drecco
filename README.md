@@ -1,4 +1,4 @@
-# DrEcco (2020)
+# DrEcco (2021)
 ## General game guidelines
 All games that need to be uploaded on the website must implement the following
 items:
