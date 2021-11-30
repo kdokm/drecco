@@ -63,7 +63,7 @@
             * arg2: if your score is sortable, pass 1 if higher score is better, 0
             *       if smaller score is better. Otherwise no need to pass variable
             */
-            getScore("NoTipping");
+            getScore("No Tipping");
             ?>
         </div>
         <h3>Play game in pop up window:<h3>

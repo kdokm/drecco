@@ -427,8 +427,10 @@ function drawTorque() {
     text(rightTorque, 120 + (boardSize / 2 - 1) * ((width - 168) / boardSize) - 20, 15 * height / 16);
 }
 
+// 'https://cims.nyu.edu/drecco2016/games/NoTipping/saveScore.php'
+
 function gameOver() {
-    $.get('https://cims.nyu.edu/drecco2016/games/NoTipping/saveScore.php', {
+    $.get('https://cims.nyu.edu/~as9913/drecco/games/NoTipping/saveScore.php', {
         score: game.players[turn].name,
         gamename: 'NoTipping',
         playername: game.players[0].name + ' vs ' + game.players[1].name

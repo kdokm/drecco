@@ -45,10 +45,10 @@ function saveScore($gamename, $playername, $score){
         $stmt_uid = $dbc->conn->prepare($query_uid);
         if(!isset($_SESSION['username'])){
             $usrname = "guest";
-	    // echo "USERNAME IS GUEST\n";
+	        echo "USERNAME IS GUEST\n";
         } else{
             $usrname = $_SESSION['username'];
-	    // echo "USERNAME IS $usrname\n";
+	        echo "USERNAME IS $usrname\n";
         }
         $stmt_uid->bind_param("s", $usrname);
         $stmt_uid->execute();

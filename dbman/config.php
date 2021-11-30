@@ -5,7 +5,7 @@ include dirname(__FILE__).'/globalcon.php';
 include dirname(__FILE__).'/../dbconf.php';
 
 //Set this for global site use
-$site_name = 'drecco2020';
+$site_name = 'drecco2021';
 
 //Maximum Login Attempts
 $max_attempts = 5;
