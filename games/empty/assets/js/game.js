@@ -38,6 +38,10 @@ var game = new Vue({
 
     methods: {
         //Game logic
+        test: function () {
+            alert("It's a test");
+        },
+
         startGame: function () {
             this.scoreTwo = 0;
             this.scoreOne = 0;
